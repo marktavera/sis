@@ -1,94 +1,29 @@
-<?php
-	# write your comment here
-	// write your comment here
-	/* 
-		write comment here
-	*/
-	$studentNo = "";
-	$lastName = "";
-	$firstName = "";
-	$emailAddress = "";
-	$password = "";
-	$birthDate = null;
-?>
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Student Registration</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-	</head>
-	<body>
-		<div class="container">
-			<h1 class="text-center">Student Registration</h1>
-			<div class="col-lg-offset-3 col-lg-6">
-				<div class"well">
-					<form method="POST" action="welcome.php"
-						class="form-horizontal">
-						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Student ID
-							</label>
-							<div class="col-lg-8">
-							<input type="text" name="sid"
-								class="form-control" required />
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Last Name
-							</label>
-							<div class="col-lg-8">
-							<input type="text" name="ln"
-								class="form-control" required />
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-lg-4">
-								First Name
-							</label>
-							<div class="col-lg-8">
-							<input type="text" name="fn"
-								class="form-control" required />
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Email Address
-							</label>
-							<div class="col-lg-8">
-							<input type="email" name="email"
-								class="form-control" required />
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Password
-							</label>
-							<div class="col-lg-8">
-							<input type="password" name="pwd"
-								class="form-control" required />
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Birthdate
-							</label>
-							<div class="col-lg-8">
-							<input type="date" name="bday"
-								class="form-control" required />
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-lg-offset-4 col-lg-8">
-								<button name="register"
-									class="btn btn-success">
-								Register
-								</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
+	<header>
+	<title>Student Registration</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="Style.css">
+	</header>
+<body>
+	<div class="container bgimg w3-display-center">
+		<div style="text-align:center;">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<p><b>De LaSalle College Of Saint Benilde</b><p>
+			<p><b>Student Registration</b></p>
 		</div>
-	</body>
+		<div style="text-align:center">
+			<p><button onclick="document.getElementId('modalregister').style.display='block'" class="w3-btn
+				w3-hover-green">Click Here to Register</button>
+		</div>
+	</div>
+</body>
 </html>
