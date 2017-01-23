@@ -1,7 +1,6 @@
 p {
 	font-family: "Raleway", sans-serif;
 	font-size: 45px;
-	color: green;
 }
 button {
 	font-size: 25px;
@@ -10,7 +9,6 @@ body, html {
 	height: 100%;
 }
 .bgimg {
-	background-image: url('https://scontent.fmnl5-1.fna.fbcdn.net/v/t34.0-12/16244508_1394645110567067_606703865_n.jpg?oh=3addd53921838a1406621682b877bc1a&oe=5886BEAB');
 	min-height: 100%;
 	background-position: center;
 	background-size: cover;
