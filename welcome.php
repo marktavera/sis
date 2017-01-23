@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 <body>
-	<center><div class="w3-content w3-margin-center" style="max-width:1400px;">
+	<div class="w3-content" style="max-width:1400px;">
 	<div class="w3-row-padding">
 		<div class="w3-third">
 			<div class="w3-white w3-text-grey w3-card-4">
@@ -57,8 +57,8 @@
 			</div>
 			</div>
 		</div>
-	</center></div>
-	<footer class="w3-container w3-teal w3-center w3-margin-top">
+	</div>
+	<footer class="w3-container w3-green w3-center w3-margin-top">
   <p>Find me on social media.</p>
   <i class="fa fa-facebook-official w3-hover-text-indigo w3-large"></i>
   <i class="fa fa-instagram w3-hover-text-purple w3-large"></i>
@@ -66,7 +66,7 @@
   <i class="fa fa-pinterest-p w3-hover-text-red w3-large"></i>
   <i class="fa fa-twitter w3-hover-text-light-blue w3-large"></i>
   <i class="fa fa-linkedin w3-hover-text-indigo w3-large"></i>
-  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p>&copy; Mark Anthony A. Tavera</p>
 </footer>
 
 	</body>
