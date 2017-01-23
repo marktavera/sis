@@ -31,7 +31,7 @@
 		<form class="w3-container" method="post" action="welcome.php">
 			<div class="w3-section">
 				<label><b>Student ID No.</b></label>
-				<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="sid" required />
+				<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Student No" name="sid" required />
 				<label><b>First Name</b></label>
 				<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter First Name" name="fn" required />
 				<label><b>Last Name</b></label>
@@ -42,6 +42,12 @@
 				<input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password" name="pwd" required />
 				<label><b>Birth Date</b></label>
 				<input class="w3-input w3-border w3-margin-bottom" type="date" placeholder="Enter Birthday" name="bday" required />
+				<label><b>Mother's Name</b></label>
+				<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Mother's Name" name="mname" required />
+				<label><b>Father's Name</b></label>
+				<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Father's Name" name="fname" required />
+				<label><b>Secondary Education</b></label>
+				<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter High School" name="hs" required />
 				<button class="w3-btn-block w3-green w3-section w3-padding" type="submit" name="register">Register</button>
 			</div>
 		</form>

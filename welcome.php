@@ -6,6 +6,10 @@
 		$emailAddress = $_POST['email'];
 		$password = $_POST['pwd'];
 		$birthDate = $_POST['bday'];
+		$motherName = $_POST['mname'];
+		$fatherName = $_POST['fname'];
+		$secondaryEducation = $_POST['hs'];
+		$studentCourse = $_POST['course'];
 	
 		//echo "<b>Welcome, " . $lastName . " " . $firstName . "!</b><br/><br/>" . 
 		//"<b>Your ID number is: </b>" . $studentNo . "!</br>" . 
@@ -26,49 +30,36 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="Style.css">
 	</head>
-<body>
-	<div class="w3-content" style="max-width:1400px;">
-	<div class="w3-row-padding">
-		<div class="w3-third">
-			<div class="w3-white w3-text-grey w3-card-4">
-				<div class="w3-display-container">
-					<img src="https://cdn3.iconfinder.com/data/icons/avatar-set/512/Avatar02-512.png" style="width:100%" alt="Avatar" />
-				<div class="w3-display-bottomleft w3-container w3-text-black">
-					<h2><?php echo $firstName . " " . $lastName ?></h2>
-				</div>
-				</div>
-			<div class="w3-container">
-				<p><i class="fa fa-graduation-cap fa-fw w3-margin-left w3-large w3-text-teal"></i> De La Salle College of Saint Benilde</p>
-				<p><i class="fa fa-map-marker fa-fw w3-margin-left w3-large w3-text-teal"></i> 2544 Taft Ave. Malate, Manila, Philippines</p>
-				<p><i class="fa fa-envelope fa-fw w3-margin-left w3-large w3-text-teal"></i> www.benilde.edu.ph</p>
-				<p><i class="fa fa-phone fa-fw w3-margin-left w3-large w3-text-teal"></i> local 1325 or 1322</p>
-				<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-star fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Welcome <?php echo $firstName . " " . $lastName ?></h2>
-			<div class="w3-container">
-				<h5 class="w3-opacity"><b>Student Information</b></h5>
-				<p><b>Student ID No.:</b> <?php echo $studentNo?></p>
-				<p><b>First Name:</b> <?php echo $firstName?></p>
-				<p><b>Last Name:</b> <?php echo $lastName?></p>
-				<p><b>Email Address:</b> <?php echo $emailAddress?></p>
-				<p><b>Birth Date:</b> <?php echo $birthDate?></p>
+<body class="w3-content" style="max-width:75%" background="https://s-media-cache-ak0.pinimg.com/originals/b8/33/10/b83310ac39d6f40864421592d1b91601.jpg">
+	<div class="`w3-row">
+		<div class="w3-half w3-container w3-transparent w3-center"  style="height:760px;" >
+			<div class="w3-padding-16">
+				<center><img src="https://cdn3.iconfinder.com/data/icons/avatar-set/512/Avatar02-512.png" style="width:49%" alt="Person" /></center>
+				<h1 style="text-align:center; font-family:Times New Roman, sans-serif;"><i>Welcome <?php echo $firstName . " " . $lastName ?></i></h1>
 			</div>
+			<div class="w3-padding-16" style="margin:auto;">	
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>First Name:</b> <?php echo $firstName ?></p>
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Last Name:</b> <?php echo $lastName ?></p>
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Email Address:</b> <?php echo $emailAddress ?></p>
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Birth Date:</b> <?php echo $birthDate ?></p>
 			</div>
+			
+		</div>
+		<div class="w3-half w3-container w3-center" style="height:760px">
+			<div class="w3-padding-16">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Signum_Fidei_green.svg/1067px-Signum_Fidei_green.svg.png" style="width:51%" alt="Person" />
+				<h1 style="text-align:center; font-family:Times New Roman, sans-serif;"><i>Student Information</i></h1>
+			</div>
+			<div class="w3-padding-16">
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Student No.:</b> <?php echo $studentNo ?></p>
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Mother's Name:</b> <?php echo $motherName ?></p>
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Father's Name:</b> <?php echo $fatherName ?></p>
+				<p class="w3-padding-16" style="font-size:18px; font-family:times new roman; background-color:#aedd97;"><b>Secondary Education:</b> <?php echo $secondaryEducation ?></p>
 			</div>
 		</div>
-	</div>
-	<footer class="w3-container w3-green w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-text-indigo w3-large"></i>
-  <i class="fa fa-instagram w3-hover-text-purple w3-large"></i>
-  <i class="fa fa-snapchat w3-hover-text-yellow w3-large"></i>
-  <i class="fa fa-pinterest-p w3-hover-text-red w3-large"></i>
-  <i class="fa fa-twitter w3-hover-text-light-blue w3-large"></i>
-  <i class="fa fa-linkedin w3-hover-text-indigo w3-large"></i>
-  <p>&copy; Mark Anthony A. Tavera</p>
-</footer>
-
+	</div>	
 	</body>
 </html>
 				
